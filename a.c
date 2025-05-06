@@ -9,5 +9,9 @@ int main{
     sum += d * d * d; //9 152 153
     num = num / 10; //15 1 0
     }
+    if (sum == copy)
+        printf("%d is an Armstrong number.", copy);
+    else
+        printf("%d is not an Armstrong number.", copy);
 }
 
